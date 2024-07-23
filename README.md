@@ -1,3 +1,5 @@
+Are you passionate about creating stunning, interactive mobile applications?
+
 I'm excited to invite you to subscribe to my YouTube channel, where I'll be sharing in-depth tutorials, tips, and tricks on Kivy and KivyMD development. Whether you're a complete beginner or an experienced developer looking to expand your skills, there's something for everyone.
 
 In my channel, you'll discover:
