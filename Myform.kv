@@ -1,0 +1,32 @@
+InterFace:
+    Button:
+        # if we want to use Html in code Note markup must be True
+        text: "[b]Hello[/b] [color=ff0000]world[/color]"
+        # if we want to use Html in code
+        markup: True
+
+        #text: "Hello world"
+
+        # size_hint and pos_hint  Responsive mode Recommend always
+        size_hint: .5, .5
+        pos_hint: {'center_x': .5, "center_y": .5}
+
+
+        # size and pos  only in Fix Mode not in Responsive mode And NOT Recommend
+        #if you use it dont forget to put None for size_hint
+        #size_hint:None, None
+        #size: 1000,2000
+        #pos: 100, 100
+        #pos: root.width/2-50, root.height/2-100
+
+        #Font RGB Color
+        color:0.9,0.85,0.3
+        #Background RGB Color
+        background_color: 0.35,0,0.69
+        font_size: "35sp"
+
+
+        # if we want to use in App
+        #on_press: app.showme()
+        # if we want to use in root (Root Mean InterFace)
+        on_press: root.showme()
